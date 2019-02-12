@@ -14,6 +14,7 @@ public class Conta {
      int agencia;
     
      public int getAgencia() {
+        System.out.println("agencia");
         return this.agencia;
     }
     
