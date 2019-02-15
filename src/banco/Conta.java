@@ -10,9 +10,12 @@ package banco;
  * @author Cristiane
  */
 public class Conta {
-    
-     int agencia;
-    
-  
-    
+
+    int agencia;
+
+    public int getAgencia() {
+        System.out.println("agencia");
+        return this.agencia;
+    }
+
 }
