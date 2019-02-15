@@ -10,7 +10,7 @@ package banco;
  * @author Cristiane
  */
 public class Banco {
-
+    int ID;
     /**
      * @param args the command line arguments
      */

@@ -14,6 +14,7 @@ public class Cliente {
     String nome;
     int ag;
     Conta cc;
+    float salario;
     
      public String getNome() {
         return this.nome;
