@@ -15,6 +15,7 @@ public class Cliente {
     int ag;
     Conta cc;
     float salario;
+    String contaCliente;
     
      public String getNome() {
         return this.nome;
@@ -24,5 +25,7 @@ public class Cliente {
          this.ag = cc.getAgencia();
         System.out.println("Agencia");
     }
-    
+    public void setSalario(){
+        this.contaCliente = cc.getConta();
+    }
 }
