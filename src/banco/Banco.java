@@ -10,6 +10,7 @@ package banco;
  * @author Cristiane
  */
 public class Banco {
+
     Conta corrente;
     int ag = corrente.getAgencia();
     /**
