@@ -12,10 +12,14 @@ package banco;
 public class Conta {
 
     int agencia;
+    String conta;
 
     public int getAgencia() {
         System.out.println("agencia");
         return this.agencia;
     }
 
+    public String getConta() {
+        return this.conta;
+    }
 }
