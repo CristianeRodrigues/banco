@@ -21,4 +21,8 @@ public class Funcionario {
     public void cadastarEndereco(Endereco end){
         this.end = end;
     }
+    
+     public void addNovoEndereco(Endereco endereco){
+        this.end = endereco;
+    }
 }
