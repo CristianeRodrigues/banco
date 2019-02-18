@@ -14,10 +14,6 @@ public class Endereco {
     String rua;
     String numero;
     String bairro;
-<<<<<<< HEAD
-=======
-    String cidade;
->>>>>>> feature
     
     public void setRua(String rua){
        this.rua = rua; 
