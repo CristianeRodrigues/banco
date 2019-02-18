@@ -17,4 +17,8 @@ public class Funcionario {
     public void setCodigo(int codigo){
         this.codigo = codigo;
     }
+    
+    public void cadastarEndereco(Endereco end){
+        this.end = end;
+    }
 }
